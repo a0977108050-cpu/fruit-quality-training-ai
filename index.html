@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>水果品質訓練教育平台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <section class="section hero-section">
+        <header class="topbar">
+          <div class="brand">
+            <span class="brand-dot"></span>
+            <span>生鮮品質訓練教育平台</span>
+          </div>
+          <nav class="nav">
+            <a href="#intro">首頁</a>
+            <a href="#cases">案例</a>
+            <a href="#quiz">測驗</a>
+            <a href="#results">成果</a>
+          </nav>
+        </header>
+
+        <div class="intro" id="intro">
+          <div class="intro-copy">
+            <p class="eyebrow">水果品質教育</p>
+            <h1>建立標準化的品質判斷與學習流程</h1>
+            <p class="lead">
+              透過圖片與案例，讓員工學習如何判斷不同水果品相階段，並依據成熟度做出合理的折價、報廢或正常販售判定，
+              有效提升門市與倉儲的品質一致性與訓練成效。
+            </p>
+            <div class="cta">
+              <button class="primary" type="button">開始學習</button>
+              <button class="secondary" type="button">查看案例</button>
+            </div>
+          </div>
+
+          <div class="fruit-hero">
+            <div class="hero-visual">
+              <img
+                src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=900&q=80"
+                alt="蘋果"
+              />
+            </div>
+            <div class="hero-caption">
+              <strong>蘋果</strong>
+              <span>成熟度分級：A / B / C</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="cases">
+        <div class="section-title">
+          <p>案例分析</p>
+          <h2>不同品相階段的判定</h2>
+        </div>
+
+        <div class="case-grid">
+          <article class="case-card">
+            <div class="case-image">
+              <img
+                src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=900&q=80"
+                alt="優質蘋果"
+              />
+            </div>
+            <div class="case-body">
+              <h3>優質階段</h3>
+              <p>外觀完整、色澤鮮艷、無明顯瑕疵，可維持正常售價。</p>
+              <ul>
+                <li>判定：可販售</li>
+                <li>建議售價：100%</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case-card">
+            <div class="case-image">
+              <img
+                src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=900&q=80"
+                alt="輕微瑕疵水果"
+              />
+            </div>
+            <div class="case-body">
+              <h3>輕微退貨階段</h3>
+              <p>表皮有輕微斑點或失水，適合做適度折價處理。</p>
+              <ul>
+                <li>判定：折價銷售</li>
+                <li>建議售價：70%</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case-card">
+            <div class="case-image">
+              <img
+                src="https://images.unsplash.com/photo-1576176539998-0237d5acb1d6?auto=format&fit=crop&w=900&q=80"
+                alt="腐爛水果"
+              />
+            </div>
+            <div class="case-body">
+              <h3>報廢階段</h3>
+              <p>腐爛、嚴重受損、異味明顯，應立即移除並紀錄處理。</p>
+              <ul>
+                <li>判定：報廢</li>
+                <li>處理方式：回收 / 銷毀</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="scoreboard">
+          <div class="score">
+            <span>今日判定件數</span>
+            <strong>1,248</strong>
+          </div>
+          <div class="score">
+            <span>正確率</span>
+            <strong>96.2%</strong>
+          </div>
+          <div class="score">
+            <span>已完成訓練</span>
+            <strong>84%</strong>
+          </div>
+          <div class="score">
+            <span>需加強員工</span>
+            <strong>23人</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="quiz">
+        <div class="section-title">
+          <p>知識測驗</p>
+          <h2>判斷這張水果圖片屬於哪個階段？</h2>
+        </div>
+
+        <div class="quiz">
+          <div class="quiz-visual">
+            <img
+              src="https://images.unsplash.com/photo-1584308972272-9e4e7685e80d?auto=format&fit=crop&w=900&q=80"
+              alt="測驗中的水果圖片"
+            />
+          </div>
+
+          <div class="quiz-content">
+            <h3>水果品相判斷</h3>
+            <p>請選擇最符合圖片狀況的判定：</p>
+            <div class="option-list">
+              <button class="option" type="button">優質</button>
+              <button class="option" type="button">輕微瑕疵</button>
+              <button class="option" type="button">報廢</button>
+            </div>
+            <div class="feedback">
+              答案說明：若出現明顯受損、腐爛或異味，應判定為報廢，並移出銷售區。
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="results">
+        <div class="section-title">
+          <p>學習成果</p>
+          <h2>管理端成果追蹤</h2>
+        </div>
+
+        <div class="report-grid">
+          <div class="report-card">
+            <h3>門市 A</h3>
+            <p>正確率：97.1%</p>
+            <p>提升幅度：+12.4%</p>
+          </div>
+          <div class="report-card">
+            <h3>門市 B</h3>
+            <p>正確率：92.8%</p>
+            <p>提升幅度：+8.7%</p>
+          </div>
+          <div class="report-card">
+            <h3>門市 C</h3>
+            <p>正確率：89.6%</p>
+            <p>提升幅度：+5.3%</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
